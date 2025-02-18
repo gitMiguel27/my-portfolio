@@ -1,15 +1,24 @@
 import { Container, Nav, Navbar } from "react-bootstrap"
+import {Link as Scroll} from 'react-scroll'
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
       <Container>
-        <Navbar.Brand href="#home">Miguel Nazario</Navbar.Brand>
+        <Navbar.Brand as={Nav.Link}>
+          <Scroll to="about" smooth={true} offset={-100} duration={350}>Miguel Nazario</Scroll>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#features">About</Nav.Link>
-            <Nav.Link href="#pricing">Projects</Nav.Link>
+            <Nav.Link>
+              <Scroll to="about" smooth={true} offset={-100} duration={350}>About</Scroll>
+            </Nav.Link>
+            <Nav.Link>
+              <Scroll to="projects" smooth={true} offset={-100} duration={350}>Projects</Scroll>
+            </Nav.Link>
+            {/* <Nav.Link as={Scroll} to="about" smooth={true} offset={-100} duration={350} >About</Nav.Link> */}
+            {/* <Nav.Link as={Scroll} to="projects" smooth={true} offset={-100} duration={350} >Projects</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
