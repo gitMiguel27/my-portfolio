@@ -3,7 +3,7 @@ import {Link as Scroll} from 'react-scroll'
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
+    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" sticky="top" style={{ height: '50px' }}>
       <Container>
         <Navbar.Brand as={Nav.Link}>
           <Scroll to="hero" smooth={true} offset={-100} duration={350}>Miguel Nazario</Scroll>

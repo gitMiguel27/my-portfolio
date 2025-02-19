@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap"
 
 function About() {
   return (
-    <Container id='about' className="my-5" style={{ minHeight: '100vh' }}>
+    <Container id='about' style={{ height: '100vh', scrollSnapAlign: 'center', scrollMarginTop: '100px' }} >
         <h3>About</h3>
     </Container>
   )
