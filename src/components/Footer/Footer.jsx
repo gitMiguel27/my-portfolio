@@ -2,8 +2,8 @@ import { Container } from "react-bootstrap"
 
 function Footer() {
   return (
-    <Container style={{ height: '50vh', scrollSnapAlign: 'center', scrollMarginTop: '100px' }} >
-      <h3>Footer</h3>
+    <Container style={{ scrollSnapAlign: 'center', scrollMarginTop: '100px' }} >
+      <h5>© 2025. Miguel Nazario. All Rights Reserved</h5>
     </Container>
   )
 }

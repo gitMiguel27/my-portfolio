@@ -2,7 +2,7 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap"
 
 function Work() {
   return (
-    <Container id='work' style={{ height: '100vh', scrollSnapAlign: 'center', scrollMarginTop: '100px' }} >
+    <Container id='work' style={{ minHeight: '100vh', scrollSnapAlign: 'center', scrollMarginTop: '100px' }} >
       <h1>Projects</h1>
       <Card>
         <Row>
