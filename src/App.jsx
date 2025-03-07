@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header/Header'
 import Hero from './pages/Hero/Hero'
 import About from './pages/About/About'
-import Projects from './pages/Projects/Projects'
+import Work from './pages/Work/Work'
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
     <div id='app'>
       <Header />
       <Hero />
+      <Work />
       <About />
-      <Projects />
       <Footer />
     </div>
   )
