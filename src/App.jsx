@@ -6,7 +6,6 @@ import About from './pages/About/About'
 import Projects from './pages/Projects/Projects'
 import Footer from './components/Footer/Footer'
 
-
 function App() {
 
   return (
