@@ -1,17 +1,18 @@
-import { Container } from "react-bootstrap"
+import { Col, Container, Image, Row } from "react-bootstrap"
 
 function Hero() {
   return (
     <Container id='home' style={{ height: '100vh', scrollSnapAlign: 'center', scrollMarginTop: '100px' }} >
-      <h3>
-        Curious and Creative
-      </h3>
-      <h3>
-        Software Engineer
-      </h3>
-      <h3>
-        Specializing in Front-End Web Development
-      </h3>
+      <Row>
+        <Col md={7} >
+          <h3>Hey, there!</h3>
+          <h1>I&apos;m Miguel Nazario<br/> a Curious and Creative Software Engineer</h1>
+          <h3>passionate in building user experiences<br/> with a focus on accessibility.</h3>
+        </Col>
+        <Col md={5} >
+          <Image src="/profile.jpeg" alt="profile pic" rounded style={{ height: '50vh' }} />
+        </Col>
+      </Row>
     </Container>
   )
 }
