@@ -2,8 +2,8 @@ import { Col, Container, Row } from "react-bootstrap"
 
 function About() {
   return (
-    <Container id='about' style={{ height: '100vh', scrollSnapAlign: 'center', scrollMarginTop: '100px' }} >
-        <h1>I AM A VOICE FOR ACCESSIBILITY ON THE WEB</h1>
+    <Container id='about' className="d-flex align-items-center justify-content-center" style={{ minHeight: '100vh', scrollSnapAlign: 'center' }} >
+        <h1>This is me...</h1>
         <Row>
           <Col md={12} lg={8} >
           <p>I am passionate in working on projects that value accessibility. Accessibility to me could mean anything from streamlining information that is otherwise difficult to find or understand all the way to building websites in multiple languages to reach a wider audience. Whether it&apos;s a website that shares recipes in English and Spanish, a guide to building a skincare routine, or a game that encourages people to visit underrated parts of NYC, I love thinking about how my projects will make an impact beyond its surface level.</p>

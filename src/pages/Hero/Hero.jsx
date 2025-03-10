@@ -2,7 +2,7 @@ import { Col, Container, Image, Row } from "react-bootstrap"
 
 function Hero() {
   return (
-    <Container id='home' style={{ height: '100vh', scrollSnapAlign: 'center', scrollMarginTop: '100px' }} >
+    <Container id='home' className="d-flex align-items-center justify-content-center" style={{ minHeight: '100vh', scrollSnapAlign: 'center' }} >
       <Row>
         <Col md={7} >
           <h3>Hey, there!</h3>

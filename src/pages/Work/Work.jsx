@@ -2,32 +2,36 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap"
 
 function Work() {
   return (
-    <Container id='work' style={{ minHeight: '100vh', scrollSnapAlign: 'center', scrollMarginTop: '100px' }} >
-      <h1>Projects</h1>
-      <Card>
-        <Row>
-          <Col md={6} >
-            <Container style={{ height: '50vh' }} >
-              <Card.Img className="py-3" variant="top" src="/profile.jpeg" style={{ height: '50vh', objectFit: 'cover' }} />
-            </Container>
-          </Col>
-          <Col md={6} >
-            <Card.Body>
-              <Row>
-                <Col xs={7} md={6} lg={7} >
-                  <Card.Title>Title</Card.Title>
-                </Col>
-                <Col xs={5} md={6} lg={5} >
-                  <Button>Link</Button>
-                  <Button>GitHub</Button>
-                </Col>
-              </Row>
-              <Card.Text>description</Card.Text>
-              <Card.Text>Tech Stack</Card.Text>
-            </Card.Body>
-          </Col>
-        </Row>
-      </Card>
+    <Container id='work' className="d-flex align-items-center" style={{ minHeight: '100vh', scrollSnapAlign: 'center' }} >
+      <Row style={{ width: '100%' }}>
+        <Col xs={12} >
+          <h1>Projects</h1>
+        </Col>
+        <Col x={12} >
+          <Card>
+            <Row>
+              <Col md={6} >
+                <Container style={{ height: '50vh' }} >
+                  <Card.Img className="py-3" variant="top" src="/profile.jpeg" style={{ height: '50vh', objectFit: 'cover' }} />
+                </Container>
+              </Col>
+              <Col md={6} >
+                <Card.Body>
+                  <Container className="p-0 d-flex justify-content-between" >
+                    <Card.Title >Title</Card.Title>
+                    <div>
+                      <Button>Link</Button>
+                      <Button>GitHub</Button>
+                    </div>
+                  </Container>
+                  <Card.Text>Description</Card.Text>
+                  <Card.Text>Tech Stack</Card.Text>
+                </Card.Body>
+              </Col>
+            </Row>
+          </Card>
+        </Col>
+      </Row>
     </Container>
   )
 }
