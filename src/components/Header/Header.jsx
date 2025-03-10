@@ -1,8 +1,9 @@
 import { Container, Nav, Navbar } from "react-bootstrap"
+import './Header.css'
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
+    <Navbar className="custom-navbar" data-bs-theme="dark" expand="lg" sticky="top" collapseOnSelect>
       <Container>
         <Navbar.Brand href="#home">MN</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -2,3 +2,7 @@ html {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
+
+#app {
+    background-color:rgba(66, 72, 116, 0.5);
+}
