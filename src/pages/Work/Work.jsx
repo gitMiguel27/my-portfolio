@@ -1,4 +1,5 @@
-import { Button, Card, Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
+import Projects from "../../components/Projects/Projects"
 
 function Work() {
   return (
@@ -7,30 +8,7 @@ function Work() {
         <Col xs={12} >
           <h1>Projects</h1>
         </Col>
-        <Col x={12} >
-          <Card>
-            <Row>
-              <Col md={6} >
-                <Container style={{ height: '50vh' }} >
-                  <Card.Img className="py-3" variant="top" src="/profile.jpeg" style={{ height: '50vh', objectFit: 'cover' }} />
-                </Container>
-              </Col>
-              <Col md={6} >
-                <Card.Body>
-                  <Container className="p-0 d-flex justify-content-between" >
-                    <Card.Title >Title</Card.Title>
-                    <div>
-                      <Button>Link</Button>
-                      <Button>GitHub</Button>
-                    </div>
-                  </Container>
-                  <Card.Text>Description</Card.Text>
-                  <Card.Text>Tech Stack</Card.Text>
-                </Card.Body>
-              </Col>
-            </Row>
-          </Card>
-        </Col>
+        <Projects/>
       </Row>
     </Container>
   )
