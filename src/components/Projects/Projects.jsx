@@ -6,7 +6,7 @@ function Projects() {
     <Col x={12}>
       {projects.map(project => {
         return (
-          <Card key={project.id}>
+          <Card className="m-5" key={project.id}>
             <Row>
               <Col md={6}>
                 <Container style={{ height: "50vh" }}>
@@ -24,10 +24,10 @@ function Projects() {
                     <Card.Title>{project.title}</Card.Title>
                     <div>
                       <Button style={{ backgroundColor: "#434975", borderColor: "#434975" }}>
-                        <Card.Link style={{ textDecoration: "none", color: "white" }} href={project.link}>Link</Card.Link>
+                        <Card.Link style={{ textDecoration: "none", color: "white" }} href={project.link} target="_blank">Link</Card.Link>
                       </Button>
                       <Button style={{ backgroundColor: "#434975", borderColor: "#434975" }}>
-                        <Card.Link style={{ textDecoration: "none", color: "white" }} href={project.github}>Github</Card.Link>
+                        <Card.Link style={{ textDecoration: "none", color: "white" }} href={project.github} target="_blank">Github</Card.Link>
                       </Button>
                     </div>
                   </Container>
