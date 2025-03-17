@@ -23,10 +23,10 @@ function Projects() {
                   <Container className="p-0 d-flex justify-content-between">
                     <Card.Title>{project.title}</Card.Title>
                     <div>
-                      <Button style={{ backgroundColor: "#434975", borderColor: "#434975" }}>
+                      <Button style={{ backgroundColor: "#000", borderColor: "#000" }}>
                         <Card.Link style={{ textDecoration: "none", color: "white" }} href={project.link} target="_blank">Link</Card.Link>
                       </Button>
-                      <Button style={{ backgroundColor: "#434975", borderColor: "#434975" }}>
+                      <Button style={{ backgroundColor: "#000", borderColor: "#000" }}>
                         <Card.Link style={{ textDecoration: "none", color: "white" }} href={project.github} target="_blank">Github</Card.Link>
                       </Button>
                     </div>
