@@ -93,7 +93,7 @@ function About() {
                   initial={{ opacity: 0 }}
                   transition={{ duration: 2.5 }}
                   whileInView={{ opacity: 1 }}
-                >CSS3, Bootstrap, Styled Components, Framer Motion, Material UI</motion.h5>
+                >CSS3, Bootstrap, Framer Motion, Material UI, Styled Components</motion.h5>
               </Col>
             </Row>
           </Col>
