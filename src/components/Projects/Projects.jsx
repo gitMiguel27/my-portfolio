@@ -6,7 +6,7 @@ function Projects() {
     <Col x={12}>
       {projects.map(project => {
         return (
-          <Card className="m-5" key={project.id}>
+          <Card className="mb-5 mx-3" key={project.id}>
             <Row>
               <Col md={6}>
                 <Container style={{ height: "50vh" }}>

@@ -12,6 +12,7 @@ function Work() {
             initial={{ opacity: 0, x: -500 }}
             transition={{ type: "spring", stiffness: 100, damping: 30 }}
             whileInView={{ opacity: 1, x:0 }}
+            className="mt-5 pt-2"
           >Projects</motion.h1>
         </Col>
         <Projects/>
