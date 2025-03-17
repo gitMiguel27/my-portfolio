@@ -2,9 +2,28 @@
     {
         "id": 1,
         "title": "July's Recipes",
-        "description": "Honoring my mom's Peruvian inspired recipes.",
-        "stack": ["React", "MongoDB", "Express.js", "Node.js"],
-        "link": "",
-        "github": ""
+        "image": "/project1.png",
+        "description": "Built a scalable MERN web app to showcase my mom's recipes, implementing internationalization with i18next for multilingual support.",
+        "stack": ["React", "MongoDB", "Express.js", "Node.js", "Bootstrap"],
+        "link": "https://julysrecipes.onrender.com/",
+        "github": "https://github.com/gitMiguel27/TheSkincarePlace"
+    },
+    {
+        "id": 2,
+        "title": "The Skincare Place",
+        "image": "/project2.png",
+        "description": "Developed a React and Rails-based skincare guide with a unique user interface built through Material UI, and utilized react-router-dom's useParams to dynamically respond to user selection.",
+        "stack": ["React", "Ruby on Rails", "PostgreSQL", "Material UI"],
+        "link": "https://www.loom.com/share/3ad0953f2dba42aeba14654c01febbad",
+        "github": "https://github.com/gitMiguel27/TheSkincarePlace"
+    },
+    {
+        "id": 3,
+        "title": "Pic-It-Up: In Queens",
+        "image": "/project3.png",
+        "description": "Created a location-based game that encourages users to explore Queens, NY. Used Piexifjs for geotag validation, featuring a RESTful API with seeded data.",
+        "stack": ["React", "Ruby on Rails", "PostgreSQL"],
+        "link": "https://www.loom.com/share/cda9118c4bfd4b4289922f7f2c81297b",
+        "github": "https://github.com/gitMiguel27/Pic-It-Up-In-Queens"
     }
 ]

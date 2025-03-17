@@ -10,7 +10,7 @@ function Hero() {
           <h3>passionate in building user experiences<br/> with a focus on accessibility.</h3>
         </Col>
         <Col md={5} >
-          <Image src="/profile.jpeg" alt="profile pic" rounded style={{ height: '50vh' }} />
+          <Image src="/profile.png" alt="profile pic" rounded style={{ height: '50vh' }} />
         </Col>
       </Row>
     </Container>
