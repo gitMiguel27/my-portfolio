@@ -33,7 +33,7 @@ function About() {
             initial={variants.initial}
             transition={variants.transition}
             whileInView={variants.whileInView}
-          >I am passionate in working on projects that value accessibility. Accessibility to me could mean anything from streamlining information that is otherwise difficult to find or understand all the way to building websites in multiple languages to reach a wider audience. Whether it&apos;s a website that shares recipes in English and Spanish, a guide to building a skincare routine, or a game that encourages people to visit underrated parts of NYC, I love thinking about how my projects will make an impact beyond its surface level.</motion.p>
+          >I am passionate in working on projects that value accessibility. Accessibility to me means anything from streamlining information that is otherwise difficult to find or understand, all the way to building websites in multiple languages to reach a wider audience. Whether it&apos;s a website that shares recipes in English and Spanish, a guide to building a skincare routine, or a game that encourages people to visit underrated parts of NYC, I love thinking about how my projects will make an impact beyond its surface level.</motion.p>
           <motion.p
             variants={variants}
             initial={variants.initial}
@@ -45,7 +45,7 @@ function About() {
             initial={variants.initial}
             transition={variants.transition}
             whileInView={variants.whileInView}
-          >I also bring a creative side to programming. I possess entrenpreneurial qualities in terms of thinking about innovative ways to solve new and existing problems. I am passionate about photography, fashion, and design. This explains my minimalistic approach to the user interfaces I create and gravitate to.</motion.p>
+          >I also bring a creative side to programming. I possess entrenpreneurial qualities in terms of thinking about innovative ways to solve new and existing problems. I am passionate about photography, fashion, and design. I gravitate towards minimalistic interfaces as you can see in the projects I have worked on.</motion.p>
           </Col>
           <Col md={12} lg={4} >
             <Row>
